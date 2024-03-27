@@ -22,15 +22,15 @@ body{
         color: #2e2f42;
 }
 
-.first-list{
+.first-list-part{
     color: #2e2f42;
 }
 
-.first-list:hover{
+.first-list-part:hover{
     color: #4d5ae5;
 
 }
-.first-list:active {
+.first-list-part:active {
     color: #4d5ae5;
 }
 
@@ -48,12 +48,16 @@ body{
     font-style: normal;
 }
 
-.header-adress:active {
+.header-adress:focus {
     color: #404bbf;
 }
 .header-adress:hover {
     color: #404bbf;
 
+}
+
+.logo-text{
+    color:#2e2f42;
 }
 
 
@@ -63,11 +67,11 @@ body{
 }
 
 .adj-titles{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 120%;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .adj-paragraph{
@@ -130,6 +134,12 @@ body{
   
 .titles{
     text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .footer{
@@ -137,7 +147,7 @@ body{
     height: 312;
 }
 
-.button1{
+.order-button{
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
@@ -150,14 +160,15 @@ body{
     letter-spacing: 0.04em;
     color: #fff;
     font-family: inherit;
+    cursor: pointer;
 }
 
-.button1:active{
+.order-button:active{
     background-color: #404BBF}
-.button1:hover{
+.order-button:hover{
     background-color: #404BBF}
 
-.button1 p{
+.order-button p{
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
