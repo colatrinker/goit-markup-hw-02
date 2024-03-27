@@ -28,7 +28,7 @@ body{
 
 .first-list-part:hover,
 .first-list-part:focus{
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 .adress-data{
@@ -134,7 +134,15 @@ body{
     color: #434455;
 }
 
-
+.main-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
   
 .titles{
     text-align: center;
@@ -142,8 +150,8 @@ body{
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .footer{
@@ -167,7 +175,7 @@ body{
     cursor: pointer;
 }
 
-.order-button:active{
+.order-button:focus{
     background-color: #404BBF}
 .order-button:hover{
     background-color: #404BBF}
