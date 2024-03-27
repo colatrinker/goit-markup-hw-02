@@ -26,13 +26,22 @@ body{
     color: #2e2f42;
 }
 
-.first-list-part:hover{
+.first-list-part:hover,
+.first-list-part:focus{
     color: #4d5ae5;
+}
 
+.adress-data{
+    color:#434455;
 }
-.first-list-part:active {
-    color: #4d5ae5;
+
+.adress-data:hover,
+.adress-data:focus{
+    color: #404bbf;
 }
+
+
+
 
 
 
@@ -57,7 +66,7 @@ body{
 }
 
 .logo-text{
-    color: #f4f4fd;
+    color: #2e2f42;
 }
 
 
