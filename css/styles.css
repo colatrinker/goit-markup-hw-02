@@ -97,7 +97,7 @@ body{
     background-color:#F4F4FD;
 }
 
-.section-team-list{
+.team-list-part{
     background-color: #FFFFFF
 }
 
@@ -207,5 +207,10 @@ body{
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+.logo-text{
+    color: #f4f4fd;
+
 }
 
