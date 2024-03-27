@@ -72,7 +72,7 @@ body{
 
 .section-main{
     background-color:#2E2F42;
-    height: 600;
+    height: 600px;
 }
 
 .adj-titles{
@@ -93,7 +93,7 @@ body{
 
 
 .section-team{
-    height: 735;
+    height: 735px;
     background-color:#F4F4FD;
 }
 
@@ -160,7 +160,7 @@ body{
 
 .footer{
     background-color:#2E2F42;
-    height: 312;
+    height: 312px;
 }
 
 .order-button{
