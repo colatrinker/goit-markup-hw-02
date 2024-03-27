@@ -12,6 +12,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+
+
 }
 
 .header-list {
@@ -22,22 +24,58 @@ body {
     color: #2e2f42;
 }
 
+.first-list-part {
+    color: #2e2f42;
+}
+
 .first-list-part:hover,
-.first-list-part:focus,
-.adress-data:hover,
-.adress-data:focus,
-.header-adress:focus,
-.header-adress:hover {
+.first-list-part:focus {
     color: #404bbf;
 }
 
-.section-main {
-    background-color: #2e2f42;
-    height: 600px;
+.adress-data {
+    color: #434455;
 }
 
-.adj-titles,
-.picture-titles {
+.adress-data:hover,
+.adress-data:focus {
+    color: #404bbf;
+}
+
+
+
+
+.header-adress {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.info {
+    font-style: normal;
+}
+
+.header-adress:focus {
+    color: #404bbf;
+}
+
+.header-adress:hover {
+    color: #404bbf;
+
+}
+
+.logo-text-big {
+    color: #2e2f42;
+}
+
+
+.section-main {
+    background-color: #2E2F42;
+}
+
+.adj-titles {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -45,10 +83,7 @@ body {
     color: #2e2f42;
 }
 
-.adj-paragraph,
-.name-description,
-.picture-titles-description,
-.endwords {
+.adj-paragraph {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -56,9 +91,13 @@ body {
     color: #434455;
 }
 
+
 .section-team {
-    height: 735px;
-    background-color: #f4f4fd;
+    background-color: #F4F4FD;
+}
+
+.team-list-part {
+    background-color: #FFFFFF
 }
 
 .name {
@@ -68,10 +107,37 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+
 }
 
-.main-title,
-.adj-section h1 {
+.name-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+
+}
+
+.picture-titles {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-transform: capitalize
+}
+
+.picture-titles-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.main-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -88,19 +154,14 @@ body {
     line-height: 111%;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-transform: capitalize;
+    text-transform: capitalize
 }
 
 .footer {
-    background-color: #2e2f42;
-    height: 312px;
+    background-color: #2E2F42;
 }
 
 .order-button {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -111,9 +172,12 @@ body {
     cursor: pointer;
 }
 
-.order-button:focus,
+.order-button:focus {
+    background-color: #404BBF
+}
+
 .order-button:hover {
-    background-color: #404bbf;
+    background-color: #404BBF
 }
 
 .order-button p {
@@ -122,6 +186,23 @@ body {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
+}
+
+.adj-section h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.endwords {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
 
 .logo-text-end {
