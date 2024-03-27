@@ -65,7 +65,7 @@ body{
 
 }
 
-.logo-text{
+.logo-text-big{
     color: #2e2f42;
 }
 
@@ -114,7 +114,7 @@ body{
 .name-description{
         font-weight: 400;
         font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
@@ -209,7 +209,7 @@ body{
     color: #f4f4fd;
 }
 
-.logo-text{
+.logo-text-end{
     color: #f4f4fd;
 
 }
