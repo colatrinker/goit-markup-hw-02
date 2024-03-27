@@ -1,9 +1,10 @@
-body{
+body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
-.logo{
+
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -11,71 +12,32 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    
-
-}
-.header-list{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
 }
 
-.first-list-part{
+.header-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
 .first-list-part:hover,
-.first-list-part:focus{
-    color: #404bbf;
-}
-
-.adress-data{
-    color:#434455;
-}
-
+.first-list-part:focus,
 .adress-data:hover,
-.adress-data:focus{
-    color: #404bbf;
-}
-
-
-
-
-
-
-.header-adress{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
-
-.info {
-    font-style: normal;
-}
-
-.header-adress:focus {
-    color: #404bbf;
-}
+.adress-data:focus,
+.header-adress:focus,
 .header-adress:hover {
     color: #404bbf;
-
 }
 
-.logo-text-big{
-    color: #2e2f42;
-}
-
-
-.section-main{
-    background-color:#2E2F42;
+.section-main {
+    background-color: #2e2f42;
     height: 600px;
 }
 
-.adj-titles{
+.adj-titles,
+.picture-titles {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -83,7 +45,10 @@ body{
     color: #2e2f42;
 }
 
-.adj-paragraph{
+.adj-paragraph,
+.name-description,
+.picture-titles-description,
+.endwords {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -91,54 +56,22 @@ body{
     color: #434455;
 }
 
-
-.section-team{
+.section-team {
     height: 735px;
-    background-color:#F4F4FD;
+    background-color: #f4f4fd;
 }
 
-.team-list-part{
-    background-color: #FFFFFF
-}
-
-.name{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 120%;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-
-}
-
-.name-description{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
-
-}
-
-.picture-titles{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 120%;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        text-transform: capitalize
-}
-
-.picture-titles-description{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+.name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
     letter-spacing: 0.02em;
-    color: #434455;
+    text-align: center;
+    color: #2e2f42;
 }
 
-.main-title{
+.main-title,
+.adj-section h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -147,27 +80,26 @@ body{
     text-align: center;
     color: #fff;
 }
-  
-.titles{
+
+.titles {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
-.footer{
-    background-color:#2E2F42;
+.footer {
+    background-color: #2e2f42;
     height: 312px;
 }
 
-.order-button{
+.order-button {
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
-    height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     font-weight: 500;
@@ -179,12 +111,12 @@ body{
     cursor: pointer;
 }
 
-.order-button:focus{
-    background-color: #404BBF}
-.order-button:hover{
-    background-color: #404BBF}
+.order-button:focus,
+.order-button:hover {
+    background-color: #404bbf;
+}
 
-.order-button p{
+.order-button p {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -192,25 +124,6 @@ body{
     color: #fff;
 }
 
-.adj-section h1{
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 107%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-}
-
-.endwords{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
+.logo-text-end {
     color: #f4f4fd;
 }
-
-.logo-text-end{
-    color: #f4f4fd;
-
-}
-
